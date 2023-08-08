@@ -5,7 +5,7 @@ import { REM } from 'next/font/google';
 const rem = REM({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-	title: 'Digudev',
+	title: 'Digudev Portfolio',
 	description: 'Portfolio'
 };
 
