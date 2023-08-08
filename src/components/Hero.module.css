@@ -1,0 +1,33 @@
+.heroContainer {
+	display: flex;
+	align-items: center;
+}
+.bgImage {
+	width: 700px;
+	height: 700px;
+	position: relative;
+	left: 740px;
+}
+.textsContainer {
+	width: 700px;
+	height: auto;
+	position: absolute;
+	padding: 20px;
+}
+.title {
+	max-width: 600px;
+	font-size: 50px;
+	font-weight: 400;
+	letter-spacing: 3px;
+	background: #f2f5f7;
+	background: linear-gradient(to right, #f2f5f7 0%, #a4abb5 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.description {
+	margin-top: 10px;
+	color: #a4abb5;
+	font-size: 23px;
+	max-width: 550px;
+	line-height: 1.4;
+}
