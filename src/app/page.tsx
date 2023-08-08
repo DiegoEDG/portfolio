@@ -1,6 +1,7 @@
 import Hero from '@/components/Hero';
 import Navbar from '@/components/Navbar';
 import Projects from '@/components/Projects';
+import Technologies from '@/components/Technologies';
 import styles from './page.module.css';
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
 			<Navbar />
 			<Hero />
 			<Projects />
+			<Technologies />
 		</main>
 	);
 }

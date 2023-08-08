@@ -1,0 +1,36 @@
+.cardContainer {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	height: 150px;
+	border-radius: 10px;
+	border: 1px solid #b0b7bf5e;
+	padding: 20px;
+	overflow: hidden;
+}
+.titleContainer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+.title {
+	font-size: 20px;
+	margin-left: 10px;
+}
+.techList {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	overflow: hidden;
+	justify-items: center;
+	align-items: center;
+}
+.techItem {
+	display: flex;
+	flex-direction: row;
+}
+.techName {
+	margin-left: 5px;
+}

@@ -1,0 +1,26 @@
+.techContainer {
+	max-width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}
+.title {
+	max-width: 600px;
+	font-size: 50px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	line-height: normal;
+	background: #f2f5f7;
+	background: linear-gradient(to right, #f2f5f7 0%, #a4abb5 100%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-bottom: 30px;
+}
+
+.stackContainer {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
