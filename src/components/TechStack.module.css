@@ -30,7 +30,9 @@
 .techItem {
 	display: flex;
 	flex-direction: row;
+	margin-bottom: 5px;
 }
 .techName {
 	margin-left: 5px;
+	color: #b0b7bf;
 }
