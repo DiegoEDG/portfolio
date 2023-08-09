@@ -1,3 +1,4 @@
+import Achievements from '@/components/Achievements';
 import Experience from '@/components/Experience';
 import Hero from '@/components/Hero';
 import Navbar from '@/components/Navbar';
@@ -10,9 +11,10 @@ export default function Home() {
 		<main className={styles.mainContainer}>
 			<Navbar />
 			<Hero />
-			<Projects />
 			<Experience />
+			<Projects />
 			<Technologies />
+			<Achievements />
 		</main>
 	);
 }
