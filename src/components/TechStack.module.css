@@ -1,12 +1,13 @@
 .cardContainer {
 	display: flex;
 	flex-direction: column;
-	width: 400px;
+	width: 420px;
 	height: 150px;
 	border-radius: 10px;
 	border: 1px solid #b0b7bf5e;
-	padding: 20px;
+	padding: 15px;
 	overflow: hidden;
+	justify-content: center;
 }
 .titleContainer {
 	display: flex;
@@ -24,13 +25,15 @@
 	flex-direction: column;
 	flex-wrap: wrap;
 	overflow: hidden;
-	justify-items: center;
-	align-items: center;
+	justify-content: space-around;
+	align-content: space-around;
+	gap: 10px;
+	max-width: 100%;
 }
 .techItem {
 	display: flex;
 	flex-direction: row;
-	margin-bottom: 5px;
+	width: max-content;
 }
 .techName {
 	margin-left: 5px;

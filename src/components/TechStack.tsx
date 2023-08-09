@@ -1,39 +1,27 @@
-import MonitorIcon from '@/icons/MonitorIcon';
-import HtmlIcon from '@/icons/techIcons/HtmlIcon';
+import { ITechStack } from '@/data';
+import { FC } from 'react';
 import styles from './TechStack.module.css';
 
-export const TechStack = () => {
+interface Props {
+	title: string;
+	icon: JSX.Element;
+	techStack: ITechStack[];
+}
+
+export const TechStack: FC<Props> = ({ title, icon, techStack }) => {
 	return (
 		<article className={styles.cardContainer}>
 			<div className={styles.titleContainer}>
-				<MonitorIcon />
-				<h4 className={styles.title}>Front End</h4>
+				{icon}
+				<h4 className={styles.title}>{title}</h4>
 			</div>
 			<div className={styles.techList}>
-				<ul className={styles.techItem}>
-					<HtmlIcon />
-					<p className={styles.techName}>HTML</p>
-				</ul>
-				<ul className={styles.techItem}>
-					<HtmlIcon />
-					<p className={styles.techName}>HTML</p>
-				</ul>
-				<ul className={styles.techItem}>
-					<HtmlIcon />
-					<p className={styles.techName}>HTML</p>
-				</ul>
-				<ul className={styles.techItem}>
-					<HtmlIcon />
-					<p className={styles.techName}>HTML</p>
-				</ul>
-				<ul className={styles.techItem}>
-					<HtmlIcon />
-					<p className={styles.techName}>HTML</p>
-				</ul>
-				<ul className={styles.techItem}>
-					<HtmlIcon />
-					<p className={styles.techName}>HTML</p>
-				</ul>
+				{techStack.map((tech) => (
+					<ul className={styles.techItem}>
+						{tech.icon}
+						<p className={styles.techName}>{tech.techName}</p>
+					</ul>
+				))}
 			</div>
 		</article>
 	);
