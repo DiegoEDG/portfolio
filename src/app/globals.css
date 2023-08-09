@@ -124,7 +124,8 @@ table {
 }
 
 body {
-	background-color: #0f1624;
 	color: #f2f5f7;
+	background-color: #0f1624;
+	/* background: linear-gradient(139deg, rgb(22, 34, 53) 100%, rgba(15, 22, 36, 1) 0%); */
 	/* color: hsl(34.9, 98.6%, 72.9%); */
 }
