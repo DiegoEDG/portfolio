@@ -1,0 +1,19 @@
+.footerContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	max-width: 100%;
+	padding: 30px;
+	border: 1px solid #fff;
+	color: #a4abb5;
+	overflow: hidden;
+	border-top: 1px solid #a4abb55d;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+}
+.brand {
+	margin-top: 15px;
+	font-size: 20px;
+}
