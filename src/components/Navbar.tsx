@@ -1,7 +1,5 @@
-import GithubIcon from '@/icons/GithubIcon';
-import LinkedInIcon from '@/icons/LinkedInIcon';
-import NavbarIcon from '@/icons/NavbarIcon';
 import Link from 'next/link';
+import { GithubIcon, LinkedInIcon, NavbarIcon } from '@/icons';
 import styles from './Navbar.module.css';
 
 const Navbar = () => {

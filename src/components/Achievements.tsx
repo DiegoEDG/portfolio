@@ -1,4 +1,4 @@
-import CheckIcon from '@/icons/CheckIcon';
+import { CheckIcon } from '@/icons';
 import styles from './Achievements.module.css';
 
 const Achievements = () => {

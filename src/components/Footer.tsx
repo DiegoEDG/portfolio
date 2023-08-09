@@ -1,5 +1,4 @@
-import GithubIcon from '@/icons/GithubIcon';
-import LinkedInIcon from '@/icons/LinkedInIcon';
+import { GithubIcon, LinkedInIcon } from '@/icons';
 import styles from './Footer.module.css';
 
 const Footer = () => {
