@@ -1,0 +1,51 @@
+.experienceContainer {
+	max-width: 100%;
+	height: auto;
+	padding: 20px;
+}
+.title {
+	max-width: 600px;
+	font-size: 50px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	line-height: normal;
+	background: linear-gradient(to right, #f2f5f7 0%, #a4abb5 100%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-bottom: 30px;
+}
+.cardContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+.card {
+	display: flex;
+	flex-direction: column;
+	width: 250px;
+	height: 100px;
+	padding: 10px;
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+	border-left: 1px solid #f2f5f7;
+	justify-content: center;
+}
+.cardTitle {
+	font-size: 25px;
+	line-height: normal;
+	margin-bottom: 5px;
+	background: linear-gradient(to right, #f2f5f7 0%, #a4abb5 100%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.date {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.position {
+	color: #a4abb5;
+}
