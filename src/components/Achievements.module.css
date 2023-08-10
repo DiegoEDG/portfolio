@@ -31,7 +31,7 @@
 	border-radius: 10px;
 	overflow: hidden;
 	color: #b4bbc7;
-	padding: 10px;
+	padding: 15px;
 	margin-bottom: 20px;
 }
 .description {
@@ -39,4 +39,19 @@
 	font-weight: 200;
 	width: fit-content;
 	margin-left: 8px;
+}
+@media only screen and (max-width: 450px) {
+	.achieveContainer {
+		max-width: fit-content;
+		height: auto;
+		padding: 0px 0px;
+		margin-top: 30px;
+	}
+	.title {
+		margin-bottom: 10px;
+	}
+	.card {
+		width: 100%;
+		height: fit-content;
+	}
 }

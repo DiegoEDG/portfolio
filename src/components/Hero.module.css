@@ -46,3 +46,31 @@
 		transform: translate3d(0, 0, 0);
 	}
 }
+
+@media only screen and (max-width: 450px) {
+	.heroContainer {
+		max-width: 450px;
+		margin: 0px auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		overflow: hidden;
+		padding: 0px 0px;
+	}
+	.bgImage {
+		max-width: 100%;
+		height: 400px;
+		position: relative;
+		left: 0px;
+	}
+	.textsContainer {
+		max-width: fit-content;
+	}
+	.title {
+		min-width: 100%;
+		font-size: 40px;
+	}
+	.description {
+		min-width: fit-content;
+	}
+}

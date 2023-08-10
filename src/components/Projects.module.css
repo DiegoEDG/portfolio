@@ -24,3 +24,20 @@
 	gap: 30px;
 	justify-content: space-around;
 }
+@media only screen and (max-width: 450px) {
+	.mainContainer {
+		max-width: fit-content;
+		padding: 0px;
+		margin-bottom: 20px;
+	}
+	.title {
+		margin-bottom: 20px;
+	}
+	.cardsContainer {
+		max-width: fit-content;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		gap: 30px;
+		justify-content: space-around;
+	}
+}

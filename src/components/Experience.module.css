@@ -1,7 +1,7 @@
 .experienceContainer {
 	max-width: 100%;
 	height: auto;
-	padding: 20px;
+	padding: 0px 20px;
 }
 .title {
 	max-width: 600px;
@@ -60,5 +60,26 @@
 	to {
 		opacity: 1;
 		transform: translate3d(0, 0, 0);
+	}
+}
+@media only screen and (max-width: 450px) {
+	.experienceContainer {
+		max-width: 100%;
+		height: auto;
+		padding: 40px 0px 0px 0px;
+	}
+	.title {
+		min-width: 100%;
+		font-size: 40px;
+		padding: 20px 10px;
+		margin: 0px;
+	}
+	.cardContainer {
+		height: 550px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		padding: 0px 10px;
+		animation: fadeIn 0.5s ease-in both;
 	}
 }

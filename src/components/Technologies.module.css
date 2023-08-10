@@ -24,3 +24,22 @@
 	flex-direction: row;
 	justify-content: space-between;
 }
+@media only screen and (max-width: 450px) {
+	.techContainer {
+		max-width: fit-content;
+		display: flex;
+		flex-direction: column;
+		padding: 0px;
+		margin: 0px;
+	}
+	.title {
+		max-width: 90%;
+	}
+	.stackContainer {
+		max-width: fit-content;
+		height: 600px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+}
