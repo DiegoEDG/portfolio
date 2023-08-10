@@ -1,7 +1,10 @@
 import { StaticImageData } from 'next/image';
-import EnseImg from '../assets/ense-mockup.png';
-import HoobankImg from '../assets/hoobank-mockup.png';
-import MoviesImg from '../assets/movies-mockup.png';
+import EnseImg from '../assets/ense-mockup.webp';
+import HoobankImg from '../assets/hoobank-mockup.webp';
+import MoviesImg from '../assets/movies-mockup.webp';
+import PokedexImg from '../assets/pokedex-mockup.webp';
+import BudgetImg from '../assets/budget-mockup.webp';
+import CliImg from '../assets/cli-mockup.webp';
 
 export interface IProject {
 	name: string;
@@ -29,7 +32,7 @@ export const ProjectsDB: IProject[] = [
 	{
 		name: 'Pokedex',
 		description: 'Mobile App doing fetching pokeApi for consult pokemon information',
-		image: HoobankImg,
+		image: PokedexImg,
 		ghLink: 'https://',
 		demoLink: 'https://'
 	},
@@ -43,14 +46,14 @@ export const ProjectsDB: IProject[] = [
 	{
 		name: 'Budget Manager',
 		description: 'Budger manager app for control money spend',
-		image: EnseImg,
+		image: BudgetImg,
 		ghLink: 'https://',
 		demoLink: 'https://'
 	},
 	{
 		name: 'CLI To-Do App ',
 		description: 'To-Do app for CLI',
-		image: MoviesImg,
+		image: CliImg,
 		ghLink: 'https://',
 		demoLink: 'https://'
 	}
