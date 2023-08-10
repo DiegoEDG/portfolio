@@ -17,7 +17,7 @@ export const TechStack: FC<Props> = ({ title, icon, techStack }) => {
 			</div>
 			<div className={styles.techList}>
 				{techStack.map((tech) => (
-					<ul className={styles.techItem}>
+					<ul className={styles.techItem} key={tech.techName}>
 						{tech.icon}
 						<p className={styles.techName}>{tech.techName}</p>
 					</ul>

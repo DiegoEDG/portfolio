@@ -15,14 +15,16 @@ const ProjectCard = ({ project }: Props) => {
 				<div className={styles.textContainer}>
 					<h3 className={styles.title}>{project.name}</h3>
 					<p className={styles.description}>{project.description}</p>
-					<Link className={styles.link} href={project.ghLink} target="blank">
-						<CodeIcon />
-					</Link>
-					{project.demoLink && (
-						<Link className={styles.link} href={project.demoLink} target="blank">
-							<DemoIcon />
+					<div className={styles.linksContainer}>
+						<Link className={styles.link} href={project.ghLink} target="blank">
+							<CodeIcon /> <p style={{ marginLeft: '5px' }}>Code</p>
 						</Link>
-					)}
+						{project.demoLink && (
+							<Link className={styles.link} href={project.demoLink} target="blank">
+								<DemoIcon /> <p>Demo</p>
+							</Link>
+						)}
+					</div>
 				</div>
 			</div>
 			<Image className={styles.bgImg} src={project.image} height={400} width={450} alt={project.name} />

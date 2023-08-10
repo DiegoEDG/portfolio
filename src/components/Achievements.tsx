@@ -8,7 +8,7 @@ const Achievements = () => {
 			<h3 className={styles.title}>Achievements</h3>
 			<div className={styles.cardContainer}>
 				{AchievementDB.map(({ description }) => (
-					<article className={styles.card}>
+					<article className={styles.card} key={description}>
 						<div>
 							<CheckIcon />
 						</div>

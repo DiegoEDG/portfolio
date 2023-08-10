@@ -8,7 +8,7 @@ const Projects = () => {
 			<h3 className={styles.title}>Projects</h3>
 			<div className={styles.cardsContainer}>
 				{ProjectsDB.map((project) => (
-					<ProjectCard project={project} />
+					<ProjectCard project={project} key={project.name} />
 				))}
 			</div>
 		</section>
