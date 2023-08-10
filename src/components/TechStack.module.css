@@ -15,10 +15,12 @@
 	align-items: center;
 	justify-content: center;
 	margin-bottom: 20px;
+	font-weight: 300;
 }
 .title {
 	font-size: 20px;
 	margin-left: 10px;
+	color: #fec576;
 }
 .techList {
 	display: flex;
@@ -34,8 +36,11 @@
 	display: flex;
 	flex-direction: row;
 	width: max-content;
+	align-items: center;
+	color: #b0b7bf;
+	fill: #b0b7bf;
 }
 .techName {
 	margin-left: 5px;
-	color: #b0b7bf;
+	font-weight: 200;
 }

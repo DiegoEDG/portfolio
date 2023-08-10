@@ -1,7 +1,7 @@
 const NodeIcon = () => (
-	<svg width="25px" height="25px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#b0b7bf">
-		<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-		<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+	<svg width="30px" height="30px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#b0b7bf">
+		<g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+		<g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
 		<g id="SVGRepo_iconCarrier">
 			{' '}
 			<title>nodejs</title> <rect width="24" height="24" fill="none"></rect>{' '}

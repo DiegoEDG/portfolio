@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { GithubIcon, LinkedInIcon, NavbarIcon } from '@/icons';
 import styles from './Navbar.module.css';
+import { Links } from '@/constants';
 
 const Navbar = () => {
 	return (
@@ -10,10 +11,10 @@ const Navbar = () => {
 				<p className={styles.title}>Digudev</p>
 			</div>
 			<div className={styles.itemsContainer}>
-				<Link href="#">
+				<Link href={Links.github} target="blank">
 					<GithubIcon />
 				</Link>
-				<Link href="#" className={styles.icon}>
+				<Link href={Links.linkedIn} className={styles.icon} target="blank">
 					<LinkedInIcon />
 				</Link>
 			</div>

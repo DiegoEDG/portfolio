@@ -1,0 +1,24 @@
+.headerIcons {
+	height: 40px;
+	width: 40px;
+}
+.strokeIcons {
+	fill: none;
+	stroke: #ffffff;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke-width: 2;
+}
+.strokeIcons:hover {
+	stroke: #fec576d1;
+}
+.fillIcons {
+	fill: #ffffff;
+	stroke: none;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke-width: 2;
+}
+.fillIcons:hover {
+	fill: #fec576d1;
+}

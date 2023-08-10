@@ -23,7 +23,9 @@
 	background: #f2f5f7;
 	background: linear-gradient(to right, #f2f5f7 0%, #a4abb5 100%);
 	-webkit-background-clip: text;
+	background-clip: text;
 	-webkit-text-fill-color: transparent;
+	animation: fadeIn 0.5s ease-in both;
 }
 .description {
 	margin-top: 10px;
@@ -31,4 +33,16 @@
 	font-size: 23px;
 	max-width: 550px;
 	line-height: 1.4;
+	animation: fadeIn 0.5s ease-in both;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -20%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
 }

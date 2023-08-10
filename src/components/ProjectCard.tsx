@@ -3,7 +3,6 @@ import Image from 'next/image';
 import styles from './ProjectCard.module.css';
 import { IProject } from '../data/ProjectsDB';
 import { CodeIcon, DemoIcon } from '@/icons';
-import bgImg from '../assets/imgtest.jpg';
 
 interface Props {
 	project: IProject;
@@ -16,11 +15,11 @@ const ProjectCard = ({ project }: Props) => {
 				<div className={styles.textContainer}>
 					<h3 className={styles.title}>{project.name}</h3>
 					<p className={styles.description}>{project.description}</p>
-					<Link className={styles.link} href={project.ghLink}>
+					<Link className={styles.link} href={project.ghLink} target="blank">
 						<CodeIcon />
 					</Link>
 					{project.demoLink && (
-						<Link className={styles.link} href={project.demoLink}>
+						<Link className={styles.link} href={project.demoLink} target="blank">
 							<DemoIcon />
 						</Link>
 					)}

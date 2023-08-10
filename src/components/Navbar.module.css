@@ -7,6 +7,7 @@
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
+	animation: fadeIn 0.5s ease-in both;
 }
 .itemsContainer {
 	display: flex;
@@ -17,7 +18,19 @@
 	margin-left: 10px;
 	font-size: 25px;
 	font-weight: 400;
+	color: #fec576e5;
 }
 .icon {
 	margin-left: 8px;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -20%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
 }

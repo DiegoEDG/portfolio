@@ -17,3 +17,9 @@
 	margin-top: 15px;
 	font-size: 20px;
 }
+.iconsContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100px;
+}

@@ -1,0 +1,31 @@
+.strokeIcon {
+	fill: none;
+	stroke: #b0b7bf;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke-width: 2;
+	width: 25px;
+	height: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.strokeIcon:hover {
+	stroke: #fec576d1;
+}
+.fillIcon {
+	fill: #b0b7bf;
+	stroke: none;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke-width: 2;
+	width: 25px;
+	height: 25px;
+}
+/* .fillIcon:hover {
+	fill: #fec576d1;
+}
+.path {
+	max-width: 100%;
+	max-height: 100%;
+} */
