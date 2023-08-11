@@ -26,7 +26,7 @@
 .card {
 	display: flex;
 	flex-direction: row;
-	width: 30 0px;
+	width: 300px;
 	height: auto;
 	background-color: #1a2741;
 	border-radius: 10px;
