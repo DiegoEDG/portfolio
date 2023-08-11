@@ -17,40 +17,41 @@ export interface IProject {
 export const ProjectsDB: IProject[] = [
 	{
 		name: 'Ense Studio Landing Page',
-		description: 'Amazing landing page to increase sales for a digital studio',
+		description: 'Amazing landing page focusing on UI/UX to increase sales for a digital studio.',
 		image: EnseImg,
 		ghLink: 'https://github.com/DiegoEDG/ense-landing',
 		demoLink: 'https://www.ensestudio.com/'
 	},
 	{
 		name: 'Movie App',
-		description: 'Mobile App to consult movies',
+		description:
+			'Movies app that shows different movies based on categories like Playing now, Popular, Top Rated, Upcoming. The data is fethching from the MovieDB api.',
 		image: MoviesImg,
 		ghLink: 'https://github.com/DiegoEDG/MoviesApp'
 	},
 	{
 		name: 'Pokedex',
-		description: 'Mobile App doing fetching pokeApi for consult pokemon information',
+		description: 'App that shows Pokenons by number, the pokemons data are fetching from PokeApi.',
 		image: PokedexImg,
 		ghLink: 'https://github.com/DiegoEDG/PokedexRN'
 	},
 	{
 		name: 'HooBank Landing Page',
-		description: 'Amazing landing page for a fake bank',
+		description: 'Amazing landing page for a fake bank focusing on a great UI/UX.',
 		image: HoobankImg,
 		ghLink: 'https://github.com/DiegoEDG/Hoobank-landingPage',
 		demoLink: 'https://diegoedg.github.io/Hoobank-landingPage/'
 	},
 	{
 		name: 'Budget Manager',
-		description: 'Budger manager app for control money spend',
+		description: 'Budget manager where you can track your expenses based on a budget that you can define.',
 		image: BudgetImg,
 		ghLink: 'https://github.com/DiegoEDG/control-de-gastos',
 		demoLink: 'https://romantic-kowalevski-b69217.netlify.app/'
 	},
 	{
 		name: 'CLI To-Do App ',
-		description: 'To-Do app for CLI',
+		description: 'To-Do console app to manage tasks in a CLI environment.',
 		image: CliImg,
 		ghLink: 'https://github.com/DiegoEDG/task-manager-console-app'
 	}
