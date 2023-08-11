@@ -21,7 +21,7 @@ export const ExperienceDB: Experience[] = [
 		position: 'Front End Developer'
 	},
 	{
-		company: 'Freelancer',
+		company: 'Freelancing',
 		date: 'Rarely',
 		position: 'Full Stack Developer'
 	}
