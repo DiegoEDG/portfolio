@@ -52,11 +52,12 @@
 		margin-bottom: 10px;
 		font-size: 40px;
 	}
+	.cardContainer {
+		margin-bottom: 0px;
+	}
 	.card {
 		width: 100%;
 		height: fit-content;
-	}
-	.cardContainer {
-		padding-bottom: 20px;
+		margin-bottom: 20px;
 	}
 }
