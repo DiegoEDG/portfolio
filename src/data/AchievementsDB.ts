@@ -14,6 +14,6 @@ export const AchievementDB: Achievement[] = [
 		description: 'Increased sales, accompanied by positive user comments thanks to an impactful and strategic design.'
 	},
 	{
-		description: 'Getting Amazon Web Services practitioner certificate'
+		description: 'Getting Amazon Web Services practitioner certificate.'
 	}
 ];

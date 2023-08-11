@@ -32,6 +32,8 @@
 	}
 	.title {
 		margin-bottom: 20px;
+		min-width: 100%;
+		font-size: 40px;
 	}
 	.cardsContainer {
 		max-width: fit-content;

@@ -21,20 +21,21 @@
 	flex-direction: row;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	margin-bottom: 15px;
 }
 .card {
 	display: flex;
 	flex-direction: row;
-	width: 300px;
-	height: 100px;
+	width: 250px;
+	height: auto;
 	background-color: #1a2741;
 	border-radius: 10px;
 	overflow: hidden;
 	color: #b4bbc7;
 	padding: 15px;
-	margin-bottom: 20px;
 }
 .description {
+	flex-direction: row;
 	font-size: 20px;
 	font-weight: 200;
 	width: fit-content;
@@ -49,9 +50,13 @@
 	}
 	.title {
 		margin-bottom: 10px;
+		font-size: 40px;
 	}
 	.card {
 		width: 100%;
 		height: fit-content;
+	}
+	.cardContainer {
+		padding-bottom: 20px;
 	}
 }
