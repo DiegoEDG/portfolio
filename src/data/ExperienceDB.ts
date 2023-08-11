@@ -11,13 +11,13 @@ export const ExperienceDB: Experience[] = [
 		position: 'Front End Developer'
 	},
 	{
-		company: 'HARMAN de México',
+		company: 'HARMAN México',
 		date: 'Jun 2021 / Feb 2022',
 		position: 'Full Stack Developer'
 	},
 	{
 		company: 'OCC MUNDIAL',
-		date: 'Sep 2021 - Jan 2021',
+		date: 'Sep 2020 / Jan 2021',
 		position: 'Front End Developer'
 	},
 	{
