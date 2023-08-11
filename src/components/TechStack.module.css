@@ -7,7 +7,7 @@
 	border: 1px solid #b0b7bf5e;
 	padding: 15px;
 	overflow: hidden;
-	justify-content: center;
+	justify-content: start;
 	align-content: center;
 }
 .titleContainer {
@@ -32,7 +32,6 @@
 	align-content: center;
 	gap: 15px;
 	max-width: 100%;
-	margin-bottom: 10px;
 	align-self: center;
 }
 .techItem {
