@@ -7,7 +7,7 @@
 	border: 1px solid #b0b7bf5e;
 	padding: 15px;
 	overflow: hidden;
-	justify-content: start;
+	justify-content: flex-start;
 	align-content: center;
 }
 .titleContainer {
