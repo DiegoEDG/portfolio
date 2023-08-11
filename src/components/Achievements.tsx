@@ -9,9 +9,6 @@ const Achievements = () => {
 			<div className={styles.cardContainer}>
 				{AchievementDB.map(({ description }) => (
 					<article className={styles.card} key={description}>
-						<div>
-							<CheckIcon />
-						</div>
 						<p className={styles.description}>{description}</p>
 					</article>
 				))}
