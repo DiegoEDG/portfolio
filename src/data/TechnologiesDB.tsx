@@ -33,10 +33,6 @@ export const FrontEndStack: ITechStack[] = [
 		icon: <CssIcon />
 	},
 	{
-		techName: 'SASS',
-		icon: <SassIcon />
-	},
-	{
 		techName: 'JavaScript',
 		icon: <JsIcon />
 	},
@@ -71,10 +67,7 @@ export const BackEndStack: ITechStack[] = [
 		techName: 'NestJS',
 		icon: <NestIcon />
 	},
-	{
-		techName: 'GraphQL',
-		icon: <GraphqlIcon />
-	},
+
 	{
 		techName: 'MongoDB',
 		icon: <MongoIcon />
@@ -82,6 +75,10 @@ export const BackEndStack: ITechStack[] = [
 	{
 		techName: 'PostgreSQL',
 		icon: <PostgressIcon />
+	},
+	{
+		techName: 'GraphQL',
+		icon: <GraphqlIcon />
 	}
 ];
 
