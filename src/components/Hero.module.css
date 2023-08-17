@@ -6,7 +6,7 @@
 	width: 700px;
 	height: 700px;
 	position: relative;
-	left: 740px;	
+	left: 740px;
 }
 .textsContainer {
 	width: 700px;
@@ -15,7 +15,7 @@
 	padding: 20px;
 }
 .title {
-	max-width: 600px;
+	max-width: 500px;
 	font-size: 50px;
 	font-weight: 400;
 	letter-spacing: 3px;
@@ -34,6 +34,7 @@
 	max-width: 550px;
 	line-height: 1.4;
 	animation: fadeIn 0.5s ease-in both;
+	text-wrap: balance;
 }
 
 @keyframes fadeIn {
