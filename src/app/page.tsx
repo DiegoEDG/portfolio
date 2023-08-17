@@ -7,9 +7,9 @@ export default function Home() {
 			<Navbar />
 			<Hero />
 			<Experience />
+			<Achievements />
 			<Projects />
 			<Technologies />
-			<Achievements />
 			<Footer />
 		</main>
 	);
