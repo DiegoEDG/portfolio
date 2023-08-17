@@ -7,7 +7,7 @@ export default function Home() {
 			<Navbar />
 			<Hero />
 			<Experience />
-			<Achievements />
+			{/* <Achievements /> */}
 			<Projects />
 			<Technologies />
 			<Footer />
