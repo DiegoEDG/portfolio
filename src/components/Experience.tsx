@@ -4,7 +4,7 @@ import styles from './Experience.module.css';
 const Experience = () => {
 	return (
 		<section className={styles.experienceContainer}>
-			<h3 className={styles.title}>Work Experience</h3>
+			<h3 className={styles.title}>Professional Journey</h3>
 			<div className={styles.cardContainer}>
 				{ExperienceDB.map((job) => (
 					<article className={styles.card} key={job.company}>

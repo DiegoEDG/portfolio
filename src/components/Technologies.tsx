@@ -6,7 +6,7 @@ import styles from './Technologies.module.css';
 const Technologies = () => {
 	return (
 		<section className={styles.techContainer}>
-			<h3 className={styles.title}>Technologies I use</h3>
+			<h3 className={styles.title}>My Tech Stack</h3>
 			<div className={styles.stackContainer}>
 				<TechStack title="Front End" icon={<MonitorIcon />} techStack={FrontEndStack} />
 				<TechStack title="Back End" icon={<ServerIcon />} techStack={BackEndStack} />
