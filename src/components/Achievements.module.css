@@ -34,6 +34,10 @@
 	color: #b4bbc7;
 	padding: 15px;
 }
+.card:hover {
+	color: #f2f5f7;
+	transition: all 0.2s ease;
+}
 .description {
 	flex-direction: row;
 	font-size: 20px;
@@ -59,5 +63,8 @@
 		width: 100%;
 		height: fit-content;
 		margin-bottom: 20px;
+	}
+	.card:hover {
+		color: #f2f5f7;
 	}
 }
