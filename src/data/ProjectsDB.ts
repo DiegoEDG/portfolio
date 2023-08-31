@@ -29,13 +29,13 @@ export const ProjectsDB: IProject[] = [
 	{
 		name: 'Movie App',
 		description:
-			'Movies app that shows different movies based on categories like Playing now, Popular, Top Rated, Upcoming. The data is fethching from the MovieDB api.',
+			'Explore movies effortlessly with this mobile app. Discover films by category: Playing now, Popular, Top Rated and Upcoming.',
 		image: MoviesImg,
 		ghLink: 'https://github.com/DiegoEDG/MoviesApp'
 	},
 	{
 		name: 'Pokedex',
-		description: 'App that shows Pokenons by number, the pokemons data are fetching from PokeApi.',
+		description: 'Mobile Pokemon app where you can find detailed information of them with a nice ui/ux.',
 		image: PokedexImg,
 		ghLink: 'https://github.com/DiegoEDG/PokedexRN'
 	},
