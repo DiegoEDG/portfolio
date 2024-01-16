@@ -51,10 +51,6 @@ export const FrontEndStack: ITechStack[] = [
 	{
 		techName: 'React Native',
 		icon: <ReactIcon />
-	},
-	{
-		techName: 'GraphQL',
-		icon: <GraphqlIcon />
 	}
 ];
 
@@ -75,10 +71,6 @@ export const BackEndStack: ITechStack[] = [
 	{
 		techName: 'PostgreSQL',
 		icon: <PostgressIcon />
-	},
-	{
-		techName: 'GraphQL',
-		icon: <GraphqlIcon />
 	}
 ];
 
@@ -102,5 +94,9 @@ export const ComplementaryStack: ITechStack[] = [
 	{
 		techName: 'Figma',
 		icon: <FigmaIcon />
+	},
+	{
+		techName: 'GraphQL',
+		icon: <GraphqlIcon />
 	}
 ];
