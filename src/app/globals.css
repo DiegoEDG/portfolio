@@ -125,6 +125,6 @@ table {
 
 body {
 	color: #f2f5f7;
-	/* background-color: #0f1624; */
-	background: linear-gradient(45deg, rgba(15, 22, 36, 1) 0%, rgba(23, 33, 55, 1) 100%);
+	background-color: #0f1624;
+	/* background: linear-gradient(45deg, rgba(15, 22, 36, 1) 0%, rgba(23, 33, 55, 1) 100%); */
 }

@@ -6,9 +6,14 @@ interface Experience {
 
 export const ExperienceDB: Experience[] = [
 	{
+		company: 'MSC Supply Co.',
+		date: 'Mar 2024 / Present',
+		position: 'Software Engineer'
+	},
+	{
 		company: 'HCL Technologies',
-		date: 'Feb 2022 / Dec 2023',
-		position: 'Front End Developer'
+		date: 'Feb 2022 / Jan 2024',
+		position: 'Front End Engineer'
 	},
 	{
 		company: 'HARMAN México',
@@ -19,10 +24,5 @@ export const ExperienceDB: Experience[] = [
 		company: 'OCC Mundial',
 		date: 'Sep 2020 / Jan 2021',
 		position: 'Front End Developer'
-	},
-	{
-		company: 'Freelancing',
-		date: 'Sometimes',
-		position: 'Full Stack Developer'
 	}
 ];
